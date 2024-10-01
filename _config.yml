@@ -1,7 +1,8 @@
-theme: jekyll-theme-primer
-
 name: Dev
 title: Dev Document
+
+markdown: CommonMarkGhPages
+theme: jekyll-theme-primer
 
 collections:
   docs:
