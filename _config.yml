@@ -17,10 +17,14 @@ collections:
 
 defaults:
   - scope:
-      type: "temp"
+      path: ""
     values:
-      layout: "docs"
-  - scope:
-      type: "fix"
-    values:
-      layout: "docs"
+      layout: "default"
+  # - scope:
+  #     type: "temp"
+  #   values:
+  #     layout: "docs"
+  # - scope:
+  #     type: "fix"
+  #   values:
+  #     layout: "docs"
