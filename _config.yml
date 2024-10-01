@@ -18,6 +18,6 @@ collections:
 
 defaults:
   - scope:
-      type: "specs"
+      type: specs
     values:
-      layout: "wtitle"
+      layout: wtitle
