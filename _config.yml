@@ -1,9 +1,10 @@
 theme: minima
 
+collections:
+  pages:
+    output: true
+
+
 defaults:
   - scope:
-      type: docs
-    values:
-      permalink: /docs/:path
-      layout: documentation
-      navbar_type: dark
+      path: "pages"
