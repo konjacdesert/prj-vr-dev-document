@@ -1,17 +1,19 @@
 ---
 ---
 
-## 説明
+## このサイトの説明
 ここは開発用資料が置かれています。
 ゲームに関する大体の情報はここにあるはずです。
-資料の更新:{{ site.time }}
 
-## 仕様
+## 最終更新
+{{ site.time }}
+
+## 確定・実装済みの仕様
 {% for page in site.fix %}
 * [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
-## 考え中
+## 未確定の仕様
 {% for page in site.temp %}
 * [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}

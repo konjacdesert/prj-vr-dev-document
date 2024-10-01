@@ -7,6 +7,9 @@ commonmark:
     - strikethrough
     - table
 
+timezone: Asia/Tokyo
+encoding: utf-8
+
 theme: jekyll-theme-primer
 
 collections:
