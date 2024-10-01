@@ -23,3 +23,6 @@ VRChatで遊べる対戦アクションゲームです。
 {% for page in site.pages %}
 * [{{ page.title }},{{page.categories}},{{page.collection}}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
+{% for page in site.documents %}
+*｛｛page｝｝
+{% endfor %}
