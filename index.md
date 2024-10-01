@@ -2,4 +2,6 @@
 
 ## Specifications
 
-{{ site.specification[0].relative_directory }}
+{% for doc in site.specification.docs %}
+    {{ doc.relative_path }}
+{% endfor %}
