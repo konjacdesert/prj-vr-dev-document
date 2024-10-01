@@ -1,5 +1,4 @@
-name: Dev
-title: Dev Document
+title: たたかうやつ(仮)プランBテスト版の開発用資料集
 
 markdown: CommonMarkGhPages
 commonmark:
@@ -11,12 +10,15 @@ commonmark:
 theme: jekyll-theme-primer
 
 collections:
-  docs:
+  temp:
+    output: true
+  fix:
+    output: true
+  impl:
     output: true
 
 defaults:
   - scope:
-      type: "docs"
+      type: ""
     values:
       layout: "default"
-      status: "temporary"
