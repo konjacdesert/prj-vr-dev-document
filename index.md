@@ -2,7 +2,7 @@
 
 ## 一覧
 
-{% for page in site.pages %}
+{% for page in site.docs %}
 <p>{{ page.url }}</p>
 []({{ page.path }})
 {% endfor %}
