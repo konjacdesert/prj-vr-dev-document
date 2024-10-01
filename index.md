@@ -14,15 +14,11 @@ VRChatで遊べる対戦アクションゲームです。
 * [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
 
-## 未確定の仕様
+## アップデート
+
+## お知らせ
+
+## 仕様メモ
 {% for page in site.temp %}
 * [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
-{% endfor %}
-
-## すべて
-{% for page in site.pages %}
-* [{{ page.title }},{{page.categories}},{{page.collection}}]({{ site.baseurl }}{{ page.url }})
-{% endfor %}
-{% for page in site.documents %}
-*｛｛page｝｝
 {% endfor %}
