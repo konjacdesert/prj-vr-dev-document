@@ -2,7 +2,7 @@
 
 ## Specifications
 
-{{ site.collections }}
+{{ site.collections.specification.docs }}
 
 {% for doc in site.collections %}
 <p>{{ doc.label }}</p>
