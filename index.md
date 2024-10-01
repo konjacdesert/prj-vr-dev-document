@@ -1,4 +1,4 @@
 # Test io pages
 
 ## Specifications
-{{site.Specifications}}
+{{site.Specification}}
