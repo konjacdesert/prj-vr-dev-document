@@ -1,9 +1,11 @@
 theme: minima
 
+name: Netsuretsu Touki Vivid Riser Dev Document
+title: Netsuretsu Touki Vivid Riser Dev Document
+
 collections:
   docs:
     output: true
-
 
 defaults:
   - scope:
