@@ -3,6 +3,5 @@
 ## 一覧
 
 {% for page in site.docs %}
-<p>{{ page.url }}</p>
-[]({{ page.path }})
+[{{ page.path }}]({{ page.url }})
 {% endfor %}
