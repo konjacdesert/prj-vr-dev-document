@@ -1,10 +1,10 @@
 theme: minima
 
 collections:
-  pages:
+  docs:
     output: true
 
 
 defaults:
   - scope:
-      path: "pages"
+      path: "docss"
