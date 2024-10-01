@@ -1,0 +1,16 @@
+---
+layout: stitle
+---
+{% if fix %}
+<div class="text-green border">
+FIX
+</div>
+{% else %}
+<div class="text-red border">
+TEMP
+</div>
+{% endif %}
+{% if title %}
+<h1>{{ title }}</h1>
+{% endif %}
+{{ content }}

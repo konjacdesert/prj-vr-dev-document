@@ -20,7 +20,8 @@ defaults:
   - scope:
       type: specs
     values:
-      layout: wtitle
+      layout: specs
+      fix: false
   - scope:
       type: posts
     values:
