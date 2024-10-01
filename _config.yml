@@ -19,6 +19,6 @@ collections:
 
 defaults:
   - scope:
-      type: ""
+      path: ""
     values:
       layout: "default"
