@@ -1,4 +1,4 @@
 theme: minima
 collections:
-  specification:
+  specifications:
     output: true
