@@ -1,11 +1,12 @@
 title: たたかうやつ(仮)プランBテスト版の開発用資料集
+description: 説明仮
 
-# markdown: CommonMarkGhPages
-# commonmark:
-#   extensions:
-#     - autolink
-#     - strikethrough
-#     - table
+markdown: CommonMarkGhPages
+commonmark:
+  extensions:
+    - autolink
+    - strikethrough
+    - table
 
 timezone: Asia/Tokyo
 encoding: utf-8
@@ -23,11 +24,4 @@ defaults:
       path: ""
     values:
       layout: "default"
-  # - scope:
-  #     type: "temp"
-  #   values:
-  #     layout: "docs"
-  # - scope:
-  #     type: "fix"
-  #   values:
-  #     layout: "docs"
+      
