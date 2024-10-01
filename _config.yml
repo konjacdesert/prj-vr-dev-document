@@ -14,11 +14,13 @@ collections:
     output: true
   fix:
     output: true
-  impl:
-    output: true
 
 defaults:
   - scope:
-      path: ""
+      type: "temp"
     values:
-      layout: "default"
+      layout: "docs"
+  - scope:
+      type: "fix"
+    values:
+      layout: "docs"
