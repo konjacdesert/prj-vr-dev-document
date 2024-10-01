@@ -5,5 +5,5 @@
 
 ## 一覧
 {% for page in site.docs %}
-* [{{ page.title }}({{ page.status }})]({{ site.baseurl }}{{ page.url }})
+* [<{{ page.status }}> {{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
