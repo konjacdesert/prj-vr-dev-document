@@ -9,11 +9,6 @@ VRChatで遊べる対戦アクションゲームです。
 ## 最終更新
 {{ site.time }}
 
-{% for cat in site.categories %}
-* {{ category | first }}
-{% endfor %}
-
-
 ## アップデート
 {% for post in site.categories.updates %}
 * [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
