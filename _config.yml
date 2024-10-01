@@ -12,6 +12,10 @@ encoding: utf-8
 
 theme: jekyll-theme-primer
 
+collections:
+  specs:
+    output: true
+
 defaults:
   - scope:
       path: ""

@@ -20,6 +20,6 @@ VRChatで遊べる対戦アクションゲームです。
 {% endfor %}
 
 ## 仕様メモ
-{% for page in site.temp %}
+{% for page in site.specs %}
 * [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
