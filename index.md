@@ -21,5 +21,5 @@ VRChatで遊べる対戦アクションゲームです。
 
 ## すべて
 {% for page in site.pages %}
-* [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
+* [{{ page.title }},{{page.categories}},{{page.collection}}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
