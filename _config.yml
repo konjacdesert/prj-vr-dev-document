@@ -8,6 +8,7 @@ commonmark:
     - table
 
 timezone: Asia/Tokyo
+lang: ja-JP
 encoding: utf-8
 
 theme: jekyll-theme-primer
@@ -15,6 +16,7 @@ theme: jekyll-theme-primer
 collections:
   specs:
     output: true
+
 
 defaults:
   - scope:
