@@ -2,4 +2,4 @@
 
 ## Specifications
 
-{{site.specification}}
+{{ site.specification[0].url   | inspect }}
