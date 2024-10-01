@@ -1,24 +1,10 @@
 ---
 layout: default
 ---
-{% if post %}
-{% assign title = post.title %}
-{% assign date = post.date %}
-{% else %}
-{% assign title = page.title %}
-{% assign date = page.date %}
-{% endif %}
-<div class="text-gray">
-    <time datetime="{{ date | date_to_xmlschema }}">
-        {{ date | date_to_string }}
-    </time>
-</div>
-{% if title %}
-<h1>{{ title }}</h1>
-{% endif %}
 {% if page.fix == true %}
-<span class="text-green border border-green mt-5 pt-3">FIX</span>
+<span class="text-green border border-green m-3 p-2">FIX</span>
 {% else %}
-<span class="text-red border border-red mt-5 pt-3">TEMP</span>
+<span class="text-red border border-red m-3 p-2">TEMP</span>
+<h1>{{ page.title }}</h1>
 {% endif %}
 {{ content }}
