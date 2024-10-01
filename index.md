@@ -2,7 +2,9 @@
 
 ## Specifications
 
-{{ site.pages }}
+{% for page in site.pages %}
+<p>{{page.url}}</p>
+{% endfor %}
 
 {{ site.collections.specifications.docs }}
 
