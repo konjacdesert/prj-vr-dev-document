@@ -2,6 +2,10 @@ name: Dev
 title: Dev Document
 
 markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
 theme: jekyll-theme-primer
 
 collections:
