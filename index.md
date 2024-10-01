@@ -1,7 +1,10 @@
+---
+---
+
 # 工事中
 
 ## 一覧
 
 {% for page in site.docs %}
-{{ page.name }}[{{ page.path }}]({{ site.baseurl }}{{ page.url }})
+[{{ page.path }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}

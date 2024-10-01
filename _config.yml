@@ -1,4 +1,4 @@
-theme: minima
+# theme: minima
 
 name: Dev
 title: Dev Document
@@ -11,5 +11,4 @@ defaults:
   - scope:
       type: "docs"
     values:
-      layout: "page"
-      name: "here!"
+      # layout: "page"
