@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-{% if page.fix == true %}
-<span class="text-green border border-green m-3 p-2">FIX</span>
-{% else %}
-<span class="text-red border border-red m-3 p-2">TEMP</span>
-<h1>{{ page.title }}</h1>
-{% endif %}
+<h1>{{ page.title }}
+    {% if page.fix == true %}
+    <span class="text-green border border-green mx-2 px-1">FIX</span>
+    {% else %}
+    <span class="text-red border border-red mx-2 px-1">TEMP</span>
+    {% endif %}</h1>
 {{ content }}
