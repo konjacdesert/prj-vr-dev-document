@@ -11,4 +11,4 @@ defaults:
   - scope:
       type: "docs"
     values:
-      # layout: "page"
+      layout: "default"
