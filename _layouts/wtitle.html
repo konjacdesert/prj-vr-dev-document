@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% if post %}
+{% assign title = post.title %}
+{% else %}
+{% assign title = page.title %}
+{% endif %}
+{% if title %}
+# {{ title }}
+{% endif %}

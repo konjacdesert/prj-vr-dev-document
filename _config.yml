@@ -20,4 +20,4 @@ defaults:
   - scope:
       type: "specs"
     values:
-      layout: "default"
+      layout: "wtitle"
