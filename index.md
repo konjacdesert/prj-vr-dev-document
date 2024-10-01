@@ -2,6 +2,6 @@
 
 ## Specifications
 
-{% for doc in site.specification.docs %}
-    {{ doc.relative_path }}
+{% for doc in site.specification %}
+<p>{{ doc.relative_path }}</p>
 {% endfor %}
