@@ -21,3 +21,7 @@ defaults:
       type: specs
     values:
       layout: wtitle
+  - scope:
+      type: posts
+    values:
+      layout: wtitle
