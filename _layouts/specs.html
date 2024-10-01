@@ -1,14 +1,10 @@
 ---
 layout: default
 ---
-{% if fix == "true" %}
-<div class="text-green border">
-FIX
-</div>
+{% if page.fix == true %}
+<span class="text-green border">FIX</span>
 {% else %}
-<div class="text-red border">
-TEMP
-</div>
+<span class="text-red border">TEMP</span>
 {% endif %}
 {% if title %}
 <h1>{{ title }}</h1>
