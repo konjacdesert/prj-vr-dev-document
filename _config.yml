@@ -1,2 +1,9 @@
 theme: minima
-relative_permalinks: false
+
+defaults:
+  - scope:
+      type: docs
+    values:
+      permalink: /docs/:path
+      layout: documentation
+      navbar_type: dark
