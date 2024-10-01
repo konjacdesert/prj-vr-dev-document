@@ -18,3 +18,8 @@ VRChatで遊べる対戦アクションゲームです。
 {% for page in site.temp %}
 * [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
 {% endfor %}
+
+## すべて
+{% for page in site.pages %}
+* [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
+{% endfor %}

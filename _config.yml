@@ -12,12 +12,6 @@ encoding: utf-8
 
 theme: jekyll-theme-primer
 
-collections:
-  temp:
-    output: true
-  fix:
-    output: true
-
 defaults:
   - scope:
       path: ""
