@@ -2,4 +2,4 @@
 
 ## Specifications
 
-{{ site.specification[0].url   | inspect }}
+{{ site.specification[0].relative_directory }}
