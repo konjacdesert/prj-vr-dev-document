@@ -34,8 +34,8 @@ defaults:
     values:
       layout: specs
       fix: false
+      strip_title: true
   - scope:
       type: posts
     values:
       layout: blogs
-      strip_title: true
