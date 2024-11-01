@@ -16,8 +16,6 @@ theme: jekyll-theme-primer
 collections:
   specs:
     output: true
-  pages:
-    output: true
 
 relative_links:
   enabled:     true
@@ -33,5 +31,3 @@ defaults:
       type: posts
     values:
       layout: blogs
-  - scope:
-      type: pages
