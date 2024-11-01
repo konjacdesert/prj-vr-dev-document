@@ -24,16 +24,16 @@ VRChatで遊べる対戦アクションゲームです。
 蒟蒻砂漠([Twitter](https://x.com/konjacdesert))
 
 ## アップデート
-{% for post in site.categories.updates %}
-* [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% for pageupdate in site.categories.updates %}
+* [{{ pageupdate.title }}]({{ site.baseurl }}{{ pageupdate.url }})
 {% endfor %}
 
 ## お知らせ
-{% for post in site.categories.notices %}
-* [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+{% for pagenotices in site.categories.notices %}
+* [{{ pagenotices.title }}]({{ site.baseurl }}{{ pagenotices.url }})
 {% endfor %}
 
 ## 仕様メモ
-{% for page in site.specs %}
-* [{{ page.title }}]({{ site.baseurl }}{{ page.url }})
+{% for pagespecs in site.specs %}
+* [{{ pagespecs.title }}]({{ site.baseurl }}{{ pagespecs.url }})
 {% endfor %}
