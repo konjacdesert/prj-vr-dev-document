@@ -35,5 +35,3 @@ defaults:
       layout: blogs
   - scope:
       type: pages
-    values:
-      strip_title: true
