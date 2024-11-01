@@ -1,5 +1,6 @@
 ---
 layout: default
+title: たたかうやつ(仮)資料集
 permalink: /
 ---
 
