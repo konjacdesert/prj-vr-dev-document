@@ -5,10 +5,6 @@ permalink: /
 # たたかうやつ(仮)資料集
 * {{site.title}}
 * {{page.title}}
-* {{page.layout}}
-{% if site.title and site.title != page.title %}
-{{site.title}}
-{% endif %}
 ## ゲームの説明
 VRChatで遊べる対戦アクションゲームです。
 巨大人型メカに乗って敵をしばきましょう！
