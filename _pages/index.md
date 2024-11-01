@@ -3,6 +3,8 @@ layout: default
 permalink: /
 ---
 # たたかうやつ(仮)資料集
+* {{site.title}}
+* {{page.title}}
 {% if site.title and site.title != page.title %}
 {{site.title}}
 {% endif %}
