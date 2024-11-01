@@ -23,18 +23,12 @@ relative_links:
   enabled:     true
   collections: true
 
-titles_from_headings:
-  enabled:     true
-  strip_title: false
-  collections: true
-
 defaults:
   - scope:
       type: specs
     values:
       layout: specs
       fix: false
-      strip_title: true
   - scope:
       type: posts
     values:
