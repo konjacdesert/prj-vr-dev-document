@@ -16,9 +16,16 @@ theme: jekyll-theme-primer
 collections:
   specs:
     output: true
+  pages:
+    output: true
 
 relative_links:
   enabled:     true
+  collections: true
+
+titles_from_headings:
+  enabled:     true
+  strip_title: false
   collections: true
 
 defaults:
