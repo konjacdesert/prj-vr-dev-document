@@ -30,4 +30,4 @@ defaults:
   - scope:
       type: posts
     values:
-      layout: wtitle
+      layout: blogs
