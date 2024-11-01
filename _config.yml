@@ -33,3 +33,7 @@ defaults:
       type: posts
     values:
       layout: blogs
+  - scope:
+      type: pages
+    values:
+      strip_title: true
