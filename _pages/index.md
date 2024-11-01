@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 ---
 # たたかうやつ(仮)資料集
