@@ -14,6 +14,8 @@ encoding: utf-8
 theme: jekyll-theme-primer
 
 collections:
+  tips:
+    output: true
   specs:
     output: true
   pages:
@@ -24,6 +26,10 @@ relative_links:
   collections: true
 
 defaults:
+  - scope:
+      type: tips
+    values:
+      layout: tips
   - scope:
       type: specs
     values:

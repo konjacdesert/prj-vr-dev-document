@@ -14,8 +14,6 @@ VRChatで遊べる対戦アクションゲームです。
 ここは開発用の資料が置かれています。
 ゲームに関する情報は大体ここにあるはずです。
 
-仕様メモについては実際にゲームに実装されていない仮のものも含みます。
-
 ## 最終更新
 {{ site.time }}
 
@@ -32,7 +30,11 @@ VRChatで遊べる対戦アクションゲームです。
 * [{{ pagenotices.title }}]({{ site.baseurl }}{{ pagenotices.url }})
 {% endfor %}
 
-## 仕様メモ
-{% for pagespecs in site.specs %}
-* [{{ pagespecs.title }}]({{ site.baseurl }}{{ pagespecs.url }})
+## TIPS
+{% for pagetips in site.tips %}
+* [{{ pagetips.title }}]({{ site.baseurl }}{{ pagetips.url }})
 {% endfor %}
+
+***
+
+[?](./_pages/specs.md)
